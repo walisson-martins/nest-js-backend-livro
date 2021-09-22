@@ -10,7 +10,6 @@ import {
 import { Produto } from './produto.model';
 import { ProdutosService } from './produtos.services';
 
-
 @Controller('produtos')
 export class ProdutoController {
   constructor(private produtosService: ProdutosService) {}
